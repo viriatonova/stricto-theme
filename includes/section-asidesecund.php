@@ -4,7 +4,7 @@
             <p class="center text-normal text-red-500">Edição Anterior</p>
         </div>
 
-        <?php query_posts('showposts=2&year=$current_year&monthnum=$current_month&order=ASC');?>
+        <?php query_posts('showposts=2&year=$current_year&monthnum=$current_month&order=DESC');?>
         <?php if( have_posts() ) : while( have_posts() ): the_post();?>
 
         <div class="capa-ultimas py-2">
