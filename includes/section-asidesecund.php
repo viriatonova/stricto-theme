@@ -8,7 +8,7 @@
         <?php if( have_posts() ) : while( have_posts() ): the_post();?>
 
         <div class="capa-ultimas py-2">
-            <a class="stricto-title-artigo2"href="<?php the_permalink();?>">
+            <a class="stricto-article-title3"href="<?php the_permalink();?>">
                 <?php the_title();?>
             </a>
             <div class="flex mt-2 items-center ">

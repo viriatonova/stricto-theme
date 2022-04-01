@@ -2,11 +2,11 @@
     
     <section class="px-2 py-4 mx-auto flex items-center sm:flex-row flex-col border-b border-gray-900">
         
-        <div class="logo-footer hidden sm:flex w-16 h-16 justify-start" alt="logo">
+        <div class="hidden sm:flex w-16 h-16 justify-center items-center" alt="logo">
             <?php the_custom_logo();?>
         </div>
 
-        <span class="text-xl">Stricto Digital</span>
+        <span class="text-xl ml-4">Stricto Digital</span>
 
         <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© Stricto Digital —
             <a href="https://megaterio.com.br/" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">Megaterio</a>
