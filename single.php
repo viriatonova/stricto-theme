@@ -5,7 +5,7 @@
 </header>
 
 <main class="w-full h-full">
-    <div class="stricto-post w-full h-full px-2 sm:px-24">
+    <div class="stricto-post">
 
         
         <?php get_template_part('includes/section', 'blogcontent');?>

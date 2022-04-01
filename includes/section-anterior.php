@@ -1,11 +1,11 @@
 <section id="section-news" class="hidden w-full h-auto sm:flex flex-col border-t border-gray-900">
 
     <div class="inline-flex ml-2 mb-2 mt-6">
-        <p class="mr-4 text-normal text-red-500">Ultimas</p>
+        <p class="mr-4 text-normal text-red-500">Edição Anterior</p>
     </div>
 
     <div class="w-full h-full flex py-4">
-        <?php query_posts('showposts=2&category_name=Ultimas');?>
+        <?php query_posts('showposts=4&category_name=EdiçãoAnterior');?>
         <?php if( have_posts() ) : while( have_posts() ): the_post();?>
     
           

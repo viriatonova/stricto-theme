@@ -4,7 +4,7 @@
         <p class="center text-normal text-red-500">Colunas & Opinião</p>
     </div>
 
-    <?php query_posts('showposts=4&category_name=Opinião');?>
+    <?php query_posts('showposts=2&category_name=Opinião');?>
     <?php if( have_posts() ) : while( have_posts() ): the_post();?>
 
        
@@ -18,8 +18,8 @@
                     <?php the_title();?>
                 </a>
             </div>
-            <div class="aside-avatar w-1/3 ml-4">
-                <?php echo get_avatar( get_the_author_email(), '60' ); ?>
+            <div class="stricto-avatar ml-4">
+                <?php echo get_avatar( get_the_author_email(), '100' ); ?>
             </div>
         </div>
         <div class="w-full sm:border-t sm:boder-light-gray-900"></div>
