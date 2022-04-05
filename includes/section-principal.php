@@ -3,12 +3,12 @@
         <div class="inline-flex ml-2 mb-2">
             <p class="mr-4 text-normal text-red-500">Capa</p>
         </div>
-        <div class="w-full h-auto flex flex-col-reverse lg:flex-row px-2 mt-2 mb-4">
+        <div class="w-full h-auto flex flex-col-reverse xl:flex-row px-2 mt-2 mb-4">
             
                 <?php query_posts('showposts=1&category_name=Capa');?>
                 <?php if( have_posts() ) : while( have_posts() ): the_post();?>
 
-                    <div id="artigo-capa" class="block w-full h-auto mt-6 px-2 lg:mt-0 lg:w-1/2 lg:px-4">
+                    <div id="artigo-capa" class="block w-full h-auto mt-6 px-2 xl:mt-0 xl:w-1/2 xl:px-4">
 
                         <a class="stricto-article-title" href="<?php the_permalink();?>">
                             <?php the_title();?>

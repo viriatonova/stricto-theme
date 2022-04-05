@@ -53,10 +53,10 @@
     <div id="corpo" class="w-full h-full flex flex-col mx-auto px-2">
 
         <header class="w-full h-auto flex flex-col sm:px-4 lg:px-10 items-center border-b border-gray-900">
-            <nav class="w-full h-auto flex flex-col sm:flex-row">
+            <nav class="w-full h-auto mb-2 flex flex-col sm:flex-row">
                 
                 <!--menu esquerda-->
-                <div class="w-full h-auto mr-4 flex flex-col sm:flex-row justify-start items-start sm:items-center bg-white">
+                <div class="w-1/4 h-auto mr-4 flex flex-col sm:flex-row justify-start items-start sm:items-center bg-white">
                     <button id="btn-side" class="w-10 h-auto p-2 mr-4 hover:bg-gray-100">
                         <svg  class="fill-current hover:text-purple-700" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
                     </button>
